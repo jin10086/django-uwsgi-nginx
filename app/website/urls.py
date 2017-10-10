@@ -17,7 +17,7 @@ from django.conf.urls import include, url
 from werobot.contrib.django import make_view
 from django.contrib import admin
 
-from robot import robot
+from .robot import robot
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
