@@ -1,1 +1,6 @@
 django
+werobot
+redis
+django-celery
+celery
+celery-with-redis
